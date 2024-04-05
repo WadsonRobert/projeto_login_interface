@@ -6,7 +6,9 @@ from controller import ControllerCadastro, ControllerLogin
 image_pil = Image.open('python1.png')
 image_tk = ctk.CTkImage(image_pil, size=(110,110))
 
+x = 10
 
+#função de registro
 def button_register():
 
     def press_button():
